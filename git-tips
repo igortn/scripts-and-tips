@@ -1,0 +1,7 @@
+Ignore a versioned file (cannot do with .gitignore):
+
+git update-index --assume-unchanged <path-to-the-file>
+
+To revert, use the same command with --no-assume-unchanged .
+
+

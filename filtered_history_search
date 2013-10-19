@@ -1,0 +1,8 @@
+# Filtered history search by using up and down keys.
+# Place this into the file with the name '.inputrc' in the home directory.
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set show-all-if-ambiguous on
+set completion-ignore-case on
+

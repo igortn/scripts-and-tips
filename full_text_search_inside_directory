@@ -1,0 +1,6 @@
+Syntax:  find [dir] -name [files] | xargs grep [text to search for]
+
+Example:
+
+find . -name "*.js" | xargs grep Anticipated
+
