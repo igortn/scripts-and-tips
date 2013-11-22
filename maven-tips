@@ -1,0 +1,4 @@
+To track down transitive dependencies:
+
+mvn dependency:tree -Dverbose -Dincludes=cglib
+
