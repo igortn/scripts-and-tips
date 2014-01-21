@@ -1,0 +1,8 @@
+To run REPL in the context of the running application with database evolutions enabled:
+
+1. Start SBT / Play console with option: 'play -DapplyEvolutions.default=true'.
+2. Start REPL: 'console'.
+3. Run the play app: 'new play.core.StaticApplication(new java.io.File("."))'.
+
+-----------------------------------
+
